@@ -1,5 +1,5 @@
 
-<h1 align = "center">🌟LilyGO Third party🌟</h1>
+<h1 align = "center">🌟LilyGoLib Third party🌟</h1>
 
 ## Overview
 
