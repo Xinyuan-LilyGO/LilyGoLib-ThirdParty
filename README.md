@@ -45,6 +45,3 @@
 * [ESP32 BLE Keyboard Fork@0.3.3](https://github.com/lewisxhe/ESP32-BLE-Keyboard-fork)
 * [ST25R3916 Fork@1.1.0](https://github.com/lewisxhe/ST25R3916-fork)
 * [ESP32-BLE-Mouse-fork@0.3.1](https://github.com/lewisxhe/ESP32-BLE-Mouse-fork)
-
-## How to use
-
