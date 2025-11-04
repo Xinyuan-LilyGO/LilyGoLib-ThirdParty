@@ -3,7 +3,6 @@ build
 make
 script
 .pio
-test
 *.bk
 *.log
 .piopm
