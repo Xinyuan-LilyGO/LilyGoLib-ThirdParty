@@ -255,6 +255,11 @@
 */
 #define RADIOLIB_ERR_INVALID_IRQ                               (-29)
 
+/*!
+  \brief Packet supplied to transmission method was shorter than required.
+*/
+#define RADIOLIB_ERR_PACKET_TOO_SHORT                          (-30)
+
 // RF69-specific status codes
 
 /*!
@@ -549,14 +554,14 @@
 #define RADIOLIB_ERR_JOIN_NONCE_INVALID                         (-1111)
 
 /*!
-  \brief Received downlink Network frame counter is invalid (lower than last heard value).
+  \brief The downlink MIC could not be verified (incorrect key or invalid FCnt)
 */
-#define RADIOLIB_ERR_N_FCNT_DOWN_INVALID                        (-1112)
+#define RADIOLIB_ERR_MIC_MISMATCH                               (-1112)
 
 /*!
-  \brief Received downlink Application frame counter is invalid (lower than last heard value).
+  \brief Multicast frame counter is invalid (outside bounds).
 */
-#define RADIOLIB_ERR_A_FCNT_DOWN_INVALID                        (-1113)
+#define RADIOLIB_ERR_MULTICAST_FCNT_INVALID                     (-1113)
 
 /*!
   \brief Uplink payload length at this datarate exceeds the active dwell time limitations.

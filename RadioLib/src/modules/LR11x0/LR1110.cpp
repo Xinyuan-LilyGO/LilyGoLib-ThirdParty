@@ -51,7 +51,7 @@ int16_t LR1110::setFrequency(float freq) {
 }
 
 int16_t LR1110::setFrequency(float freq, bool skipCalibration, float band) {
-  RADIOLIB_CHECK_RANGE(freq, 150.0, 960.0, RADIOLIB_ERR_INVALID_FREQUENCY);
+  RADIOLIB_CHECK_RANGE(freq, 150.0f, 960.0f, RADIOLIB_ERR_INVALID_FREQUENCY);
   
   // check if we need to recalibrate image
   int16_t state;
@@ -71,7 +71,7 @@ int16_t LR1110::setOutputPower(int8_t power) {
   return(this->setOutputPower(power, false));
 }
 
-int16_t LR1110::setOutputPower(int8_t power, bool forceHighPower) {
+int16_t LR1110::setOutputPower(int8_t power, bool forceHighPower, uint32_t rampTimeUs) {
   // check if power value is configurable
   int16_t state = this->checkOutputPower(power, NULL, forceHighPower);
   RADIOLIB_ASSERT(state);
@@ -86,7 +86,7 @@ int16_t LR1110::setOutputPower(int8_t power, bool forceHighPower) {
   RADIOLIB_ASSERT(state);
 
   // set output power
-  state = setTxParams(power, RADIOLIB_LR11X0_PA_RAMP_48U);
+  state = setTxParams(power, roundRampTime(rampTimeUs));
   return(state);
 }
 
@@ -122,6 +122,8 @@ int16_t LR1110::setModem(ModemType_t modem) {
     case(ModemType_t::RADIOLIB_MODEM_LRFHSS): {
       return(this->beginLRFHSS());
     } break;
+    default:
+      return(RADIOLIB_ERR_WRONG_MODEM);
   }
   return(RADIOLIB_ERR_WRONG_MODEM);
 }

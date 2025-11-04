@@ -5,14 +5,15 @@
 
 * This page stores copies of third-party libraries of LilyGoLib
 
+
 ## T-Watch-S3 Third party
 
 * [ESP8266Audio@2.0.0](https://github.com/earlephilhower/ESP8266Audio)
 * [TinyGPSPlus@1.1.0](https://github.com/mikalhart/TinyGPSPlus)
-* [lvgl@9.2.2](https://github.com/lvgl/lvgl)
-* [RadioLib@7.1.2](https://github.com/jgromes/RadioLib)
-* [XPowersLib@0.2.9](https://github.com/lewisxhe/XPowersLib)
-* [SensorLib@0.3.1](https://github.com/lewisxhe/SensorsLib)
+* [lvgl@9.4.0](https://github.com/lvgl/lvgl)
+* [RadioLib@7.4.0](https://github.com/jgromes/RadioLib)
+* [XPowersLib@0.3.1](https://github.com/lewisxhe/XPowersLib)
+* [SensorLib@0.3.3](https://github.com/lewisxhe/SensorsLib)
 * [IRremoteESP8266 Fork](https://github.com/tonhuisman/IRremoteESP8266/archive/refs/heads/feature/C++20-compatibility.zip)
 * [ESP32-BLE-Mouse-fork@0.3.1](https://github.com/lewisxhe/ESP32-BLE-Mouse-fork)
 
@@ -22,10 +23,10 @@
 * [Adafruit BusIO@1.17.0](https://github.com/adafruit/Adafruit_BusIO)
 * [ESP8266Audio@2.0.0](https://github.com/earlephilhower/ESP8266Audio)
 * [TinyGPSPlus@1.1.0](https://github.com/mikalhart/TinyGPSPlus)
-* [lvgl@9.2.2](https://github.com/lvgl/lvgl)
-* [RadioLib@7.1.2](https://github.com/jgromes/RadioLib)
-* [XPowersLib@0.2.9](https://github.com/lewisxhe/XPowersLib)
-* [SensorLib@0.3.1](https://github.com/lewisxhe/SensorsLib)
+* [lvgl@9.4.0](https://github.com/lvgl/lvgl)
+* [RadioLib@7.4.0](https://github.com/jgromes/RadioLib)
+* [XPowersLib@0.3.1](https://github.com/lewisxhe/XPowersLib)
+* [SensorLib@0.3.3](https://github.com/lewisxhe/SensorsLib)
 * [NFC-RFAL Fork@1.0.1](https://github.com/lewisxhe/NFC-RFAL-fork)
 * [ST25R3916 Fork@1.1.0](https://github.com/lewisxhe/ST25R3916-fork)
 * [ESP32 BLE Keyboard Fork@0.3.3](https://github.com/lewisxhe/ESP32-BLE-Keyboard-fork)
@@ -37,10 +38,10 @@
 * [Adafruit BusIO@1.17.0](https://github.com/adafruit/Adafruit_BusIO)
 * [ESP8266Audio@2.0.0](https://github.com/earlephilhower/ESP8266Audio)
 * [TinyGPSPlus@1.1.0](https://github.com/mikalhart/TinyGPSPlus)
-* [lvgl@9.2.2](https://github.com/lvgl/lvgl)
-* [RadioLib@7.1.2](https://github.com/jgromes/RadioLib)
-* [XPowersLib@0.2.9](https://github.com/lewisxhe/XPowersLib)
-* [SensorLib@0.3.1](https://github.com/lewisxhe/SensorsLib)
+* [lvgl@9.4.0](https://github.com/lvgl/lvgl)
+* [RadioLib@7.4.0](https://github.com/jgromes/RadioLib)
+* [XPowersLib@0.3.1](https://github.com/lewisxhe/XPowersLib)
+* [SensorLib@0.3.3](https://github.com/lewisxhe/SensorsLib)
 * [NFC-RFAL Fork@1.0.1](https://github.com/lewisxhe/NFC-RFAL-fork)
 * [ESP32 BLE Keyboard Fork@0.3.3](https://github.com/lewisxhe/ESP32-BLE-Keyboard-fork)
 * [ST25R3916 Fork@1.1.0](https://github.com/lewisxhe/ST25R3916-fork)
