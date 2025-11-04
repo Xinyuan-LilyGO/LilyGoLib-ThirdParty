@@ -154,9 +154,9 @@ void BleMouse::taskServer(void* pvParameter) {
   bleMouseInstance->hid->hidInfo(0x00,0x02);
 
   BLESecurity *pSecurity = new BLESecurity();
-
+#if ESP_ARDUINO_VERSION < ESP_ARDUINO_VERSION_VAL(3,3,0)
   pSecurity->setAuthenticationMode(ESP_LE_AUTH_BOND);
-
+#endif
   bleMouseInstance->hid->reportMap((uint8_t*)_hidReportDescriptor, sizeof(_hidReportDescriptor));
   bleMouseInstance->hid->startServices();
 
