@@ -458,7 +458,7 @@ public:
             log_e("time failed");
             return -1;
         }
-        if (localtime_r(&now, &info) == NULL) {
+        if (gmtime_r(&now, &info) == NULL) {
             log_e("localtime_r failed");
             return -1;
         }
