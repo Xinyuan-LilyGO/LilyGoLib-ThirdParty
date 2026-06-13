@@ -5,7 +5,7 @@
 #include "BLEHIDDevice.h"
 #include "HIDTypes.h"
 #include "HIDKeyboardTypes.h"
-#include <driver/adc.h>
+// #include <driver/adc.h>
 #include "sdkconfig.h"
 
 #include "BleConnectionStatus.h"
